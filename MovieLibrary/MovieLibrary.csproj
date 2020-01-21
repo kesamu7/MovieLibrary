@@ -201,6 +201,10 @@
     <Compile Include="Migrations\202001200447505_InitialModel.Designer.cs">
       <DependentUpon>202001200447505_InitialModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001210519565_AddMovieModel.cs" />
+    <Compile Include="Migrations\202001210519565_AddMovieModel.Designer.cs">
+      <DependentUpon>202001210519565_AddMovieModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -294,6 +298,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202001200447505_InitialModel.resx">
       <DependentUpon>202001200447505_InitialModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001210519565_AddMovieModel.resx">
+      <DependentUpon>202001210519565_AddMovieModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

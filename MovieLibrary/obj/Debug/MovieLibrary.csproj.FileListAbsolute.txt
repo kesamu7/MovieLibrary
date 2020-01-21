@@ -71,3 +71,4 @@ C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.dl
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.pdb
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.InitialModel.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.csproj.GenerateResource.Cache
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddMovieModel.resources
