@@ -75,3 +75,4 @@ C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Mi
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddMembershipType.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.PopulateMembershipTypes.resources
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.ApplyAnnotationsToCustomerName.resources
