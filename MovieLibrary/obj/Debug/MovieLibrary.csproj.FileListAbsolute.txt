@@ -72,3 +72,5 @@ C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.pd
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.InitialModel.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.csproj.GenerateResource.Cache
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddMovieModel.resources
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddIsSubscribedToCustomer.resources
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddMembershipType.resources
