@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using MovieLibrary.ViewModels;
 using MovieLibrary.Models;
+using System.Data.Entity;
 
 namespace MovieLibrary.Controllers
 {
@@ -25,9 +26,8 @@ namespace MovieLibrary.Controllers
         // GET: Customers
         public ViewResult Index()
         {
-            var customers = _context.Customers;
+            var customers = _context.Customers.Include(c => c.MembershipType);
             return View(customers);
-            
         }
 
         public ActionResult Details(int id)
@@ -38,7 +38,6 @@ namespace MovieLibrary.Controllers
                 return HttpNotFound();
 
             return View(customer);
-
         }
     }
 }
