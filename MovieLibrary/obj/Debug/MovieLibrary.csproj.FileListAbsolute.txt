@@ -79,3 +79,5 @@ C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Mi
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddMembershipTypeName.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddMembershipTypeNameColumn.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.ApplyMembershipTypesNameAnnotations.resources
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddBirthDateToCustomerTable.resources
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.MakeDobNullable.resources
