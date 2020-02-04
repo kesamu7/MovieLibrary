@@ -241,6 +241,10 @@
     <Compile Include="Migrations\202002020614149_MakeDobNullable.Designer.cs">
       <DependentUpon>202002020614149_MakeDobNullable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002040435314_AddDatesAndQuantityToMovieModel.cs" />
+    <Compile Include="Migrations\202002040435314_AddDatesAndQuantityToMovieModel.Designer.cs">
+      <DependentUpon>202002040435314_AddDatesAndQuantityToMovieModel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -366,6 +370,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002020614149_MakeDobNullable.resx">
       <DependentUpon>202002020614149_MakeDobNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002040435314_AddDatesAndQuantityToMovieModel.resx">
+      <DependentUpon>202002040435314_AddDatesAndQuantityToMovieModel.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
