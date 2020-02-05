@@ -86,3 +86,4 @@ C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Mi
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.PopulateGenreTypes.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.AddGenreDbContext.resources
 C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.RedoPopulateGenreTable.resources
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.Migrations.UpdateMovieModelWithGenreProperty.resources

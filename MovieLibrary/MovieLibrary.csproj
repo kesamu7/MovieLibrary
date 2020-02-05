@@ -261,6 +261,10 @@
     <Compile Include="Migrations\202002050431159_RedoPopulateGenreTable.Designer.cs">
       <DependentUpon>202002050431159_RedoPopulateGenreTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202002050451516_UpdateMovieModelWithGenreProperty.cs" />
+    <Compile Include="Migrations\202002050451516_UpdateMovieModelWithGenreProperty.Designer.cs">
+      <DependentUpon>202002050451516_UpdateMovieModelWithGenreProperty.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -402,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202002050431159_RedoPopulateGenreTable.resx">
       <DependentUpon>202002050431159_RedoPopulateGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202002050451516_UpdateMovieModelWithGenreProperty.resx">
+      <DependentUpon>202002050451516_UpdateMovieModelWithGenreProperty.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

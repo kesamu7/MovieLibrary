@@ -14,6 +14,8 @@ namespace MovieLibrary.Models
         public DateTime? ReleaseDate { get; set; }
         [DataType(DataType.Date)]
         public DateTime? DateAdded { get; set; }
-        public int NumberInStock { get; set; } 
+        public int NumberInStock { get; set; }
+        public Genre Genre { get; set; }
+        public byte GenreId { get; set; }
     }
 }
