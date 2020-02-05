@@ -5,36 +5,40 @@ using System.Web;
 using System.Web.Mvc;
 using MovieLibrary.Models;
 using MovieLibrary.ViewModels;
+using System.Data.Entity;
 
 namespace MovieLibrary.Controllers
 {
     public class MoviesController : Controller
     {
-        // GET: Movies
-        public ActionResult Index()
+        private ApplicationDbContext _context;
+
+        public MoviesController()
         {
-            var movie = new Movie() { Name = "Inception" };
-            var movie1 = new Movie() { Name = "Gattaca" };
-            return View();
+            _context = new ApplicationDbContext();
         }
 
-        public ActionResult Random()
+        protected override void Dispose(bool disposing)
         {
-            var movie = new Movie() { Name = "Someday" };
+            _context.Dispose();
+        }
 
-            var customers = new List<Customer>
-            {
-                new Customer{Name = "Michael Smith"},
-                new Customer{Name = "Mary Williamps"}
-            };
 
-            var viewModel = new RandomMovieViewModel()
-            {
-                Movie = movie,
-                Customers = customers
-            };
+        // GET: Movies
+        public ViewResult Index()
+        {
+            var movies = _context.Movies.Include(m => m.Genre);
+            return View(movies);
+        }
 
-            return View(viewModel);
+        public ActionResult Details(int id)
+        {
+            var movie = _context.Movies.Include(m => m.Genre).SingleOrDefault(m => m.Id == id);
+
+            if (movie == null)
+                return HttpNotFound();
+
+            return View(movie);
         }
 
         public ActionResult Edit(int id)
