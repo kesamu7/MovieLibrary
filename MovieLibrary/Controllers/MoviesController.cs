@@ -51,5 +51,17 @@ namespace MovieLibrary.Controllers
         {
             return Content(year + "/" + month);
         }
+
+        public ActionResult New()
+        {
+            var genres = _context.Genres.ToList();
+
+            var viewModel = new MovieFormViewModel
+            {
+                Genres = genres
+            };
+
+            return View("MovieForm",viewModel);
+        }
     }
 }
