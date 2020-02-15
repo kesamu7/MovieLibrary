@@ -23,6 +23,7 @@ namespace MovieLibrary.Models
 
         public Genre Genre { get; set; }
 
+        [Display(Name = "Genre")]
         public byte GenreId { get; set; }
     }
 }

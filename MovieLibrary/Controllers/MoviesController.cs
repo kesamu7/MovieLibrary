@@ -43,8 +43,19 @@ namespace MovieLibrary.Controllers
 
         public ActionResult Edit(int id)
         {
-            return Content("id=" + id);
+            var movie = _context.Movies.SingleOrDefault(m => m.Id == id);
+            if (movie == null)
+                return HttpNotFound();
+
+            var viewModel = new MovieFormViewModel
+            {
+                Movie = movie,
+                Genres = _context.Genres.ToList()
+            }; ;
+
+            return View("MovieForm",viewModel);
         }
+
 
         [Route("movies/released/{year}/{month:regex(\\d{2}):range(1,12)}")]
         public ActionResult ByReleaseYear(int year, int month)
