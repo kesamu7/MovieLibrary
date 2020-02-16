@@ -12,7 +12,9 @@ namespace MovieLibrary.Models
 
         public string Name { get; set; }
 
+        
         [DataType(DataType.Date)]
+        [Display(Name = "Release Date")]
         public DateTime? ReleaseDate { get; set; }
 
         [DataType(DataType.Date)]

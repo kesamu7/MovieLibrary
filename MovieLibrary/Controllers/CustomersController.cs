@@ -48,7 +48,7 @@ namespace MovieLibrary.Controllers
                 MembershipTypes = membershipTypes
             };
             
-            return View("CustomerForm",viewModel);
+            return View("CustomerForm",viewModel);  
         }
 
         [HttpPost]
