@@ -14,6 +14,10 @@ namespace MovieLibrary.Models
         public byte DiscountRate { get; set; }
         [Required]
         [StringLength(255)]
-        public string Name { get; set; }    
+        public string Name { get; set; }
+
+        public static readonly byte Unknown = 0;
+        public static readonly byte PayAsYouGo = 1;
+
     }
 }

@@ -22,6 +22,7 @@ namespace MovieLibrary.Models
         public byte MembershipTypeId { get; set; }
 
         [DataType(DataType.Date)]
+        [Min18YearsIfAMember]
         public DateTime? BirthDate { get; set; }
     }
 }
