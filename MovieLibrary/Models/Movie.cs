@@ -12,7 +12,6 @@ namespace MovieLibrary.Models
 
         public string Name { get; set; }
 
-        
         [DataType(DataType.Date)]
         [Display(Name = "Release Date")]
         public DateTime? ReleaseDate { get; set; }
@@ -20,8 +19,11 @@ namespace MovieLibrary.Models
         [DataType(DataType.Date)]
         public DateTime? DateAdded { get; set; }
 
+        //Add data annotation that requires a number between 1-20 be input on this input box.
+        [Range(1,20)]
         [Display(Name = "Number In Stock")]
         public int NumberInStock { get; set; }
+
 
         public Genre Genre { get; set; }
 
