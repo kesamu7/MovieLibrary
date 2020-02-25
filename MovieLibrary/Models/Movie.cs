@@ -22,7 +22,7 @@ namespace MovieLibrary.Models
         //Add data annotation that requires a number between 1-20 be input on this input box.
         [Range(1,20)]
         [Display(Name = "Number In Stock")]
-        public int NumberInStock { get; set; }
+        public byte? NumberInStock { get; set; }
 
 
         public Genre Genre { get; set; }
