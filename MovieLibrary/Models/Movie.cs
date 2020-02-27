@@ -24,7 +24,6 @@ namespace MovieLibrary.Models
         [Display(Name = "Number In Stock")]
         public byte? NumberInStock { get; set; }
 
-
         public Genre Genre { get; set; }
 
         [Display(Name = "Genre")]

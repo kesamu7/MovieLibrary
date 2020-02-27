@@ -22,7 +22,6 @@ namespace MovieLibrary.ViewModels
             ReleaseDate = movie.ReleaseDate;
             NumberInStock = movie.NumberInStock;
             GenreId = movie.GenreId;
-                
         }
 
         public IEnumerable<Genre> Genres { get; set; }
