@@ -13,6 +13,9 @@ namespace MovieLibrary.App_Start
         public MappingProfile()
         {
             //Mapper.CreateMap<Customer, CustomerDto>();
+            CreateMap<Customer, CustomerDto>();
+            CreateMap<CustomerDto, Customer>();
+           
         }
     }
 }
