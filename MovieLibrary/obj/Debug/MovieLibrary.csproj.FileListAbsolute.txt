@@ -176,3 +176,11 @@ C:\Users\kquinonez\source\repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary
 C:\Users\kquinonez\source\repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.csproj.CopyComplete
 C:\Users\kquinonez\source\repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.dll
 C:\Users\kquinonez\source\repos\MovieLibrary\MovieLibrary\obj\Debug\MovieLibrary.pdb
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\AutoMapper.dll
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\System.Net.Http.Formatting.dll
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\System.Web.Http.dll
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\System.Web.Http.WebHost.dll
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\AutoMapper.xml
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\System.Net.Http.Formatting.xml
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\System.Web.Http.xml
+C:\Users\Kelvin\Source\Repos\MovieLibrary\MovieLibrary\bin\System.Web.Http.WebHost.xml
